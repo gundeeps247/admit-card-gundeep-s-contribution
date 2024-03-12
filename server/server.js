@@ -21,13 +21,6 @@ mongoose
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.log(err));
 
-// Define a Mongoose schema for your data
-const userSchema = new mongoose.Schema({
-  name: String,
-  email: String,
-  password: String,
-  pic: String,
-});
 
 // Define a Mongoose model based on the schema
 // Use the 'users' collection instead of 'entries'
